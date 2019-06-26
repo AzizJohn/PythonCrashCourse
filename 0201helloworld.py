@@ -9,6 +9,8 @@ print("A very long string "
 "can be put into several lines. "
 f"Hi, {string}"
 )
+message = "Another long message"
+message += "\n placed across several lines."
 rm_white_space = "  python   "
 print(rm_white_space.rstrip())
 print(rm_white_space.lstrip())
