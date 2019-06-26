@@ -5,6 +5,10 @@ integer = 18
 flt = 3.141
 format_string = f"a{string}b{integer}c{flt}"
 print(format_string)
+print("A very long string "
+"can be put into several lines. "
+f"Hi, {string}"
+)
 rm_white_space = "  python   "
 print(rm_white_space.rstrip())
 print(rm_white_space.lstrip())
