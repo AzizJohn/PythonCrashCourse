@@ -19,3 +19,9 @@ if cars:
 	print("cars has at least one item")	
 else:
 	print("cars is empty")
+#use a string as a condition
+string = "non-empty string"
+if string:
+	print("The string is not empty.")
+else:
+	print("The string is empty.")
