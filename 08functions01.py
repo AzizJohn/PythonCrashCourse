@@ -73,3 +73,6 @@ mm.hello()
 #import every function in a module. This method is discouraged.
 from mymodule import *
 hello()
+
+#import multiple functions, use comma to separate them
+from mymodule import hello, bye
