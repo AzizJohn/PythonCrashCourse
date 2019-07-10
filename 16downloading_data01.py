@@ -1,4 +1,8 @@
 """csv file format"""
+#In a csv file, every field is a string, so numbers should be converted by
+#int() or float() before use.
+#In a json file, contents are stored in dictionary or list, so numbers can be
+#used directly.
 import csv
 from datetime import datetime
 #This imports the datetime class from the datetime module.

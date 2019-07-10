@@ -1,4 +1,8 @@
 """Mapping Global Data Sets: JSON Format"""
+#In a csv file, every field is a string, so numbers should be converted by
+#int() or float() before use.
+#In a json file, contents are stored in dictionary or list, so numbers can be
+#used directly.
 import json
 filename = '16data/eq_data_30_day_m1.json'
 with open(filename) as f:
